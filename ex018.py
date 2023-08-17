@@ -1,0 +1,6 @@
+n = input('Digite o seu nome completo: ').strip()
+print('seu nome em maiusculo: {}'.format(n.upper()))
+print('seu nome em minusculo: {}'.format(n.lower()))
+print('seu nome sem espaços tem {} letras'.format(len(n) - n.count(' ')))
+frase = n.split()
+print(len(frase[0]))
